@@ -21,11 +21,10 @@ packer build -var-file variables.json ubuntu-1604-base.json
 Ensure that `variables.json` contains valid values.
 
 ## Author
-
-Copyright (c) 2016 Nick Charlton. MIT Licensed.
+based on work Copyright (c) 2016 Nick Charlton. MIT Licensed.
+Modified Alexander Stoklasa
 
 [Packer]: https://packer.io
 [VMware ESXi]: http://www.vmware.com/products/vsphere-hypervisor.html
-[boxes]: https://github.com/nickcharlton/boxes
 [boot command to set a static IP]: https://help.ubuntu.com/lts/installation-guide/armhf/apbs02.html
 [post]: https://nickcharlton.net/posts/using-packer-esxi-6.html
